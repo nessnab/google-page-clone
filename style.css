@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #202124;
+    font-size: 14px;
+    font-family: 'Google Sans', Arial, sans-serif;
+}
+
+.icon {
+    fill: white;
+    fill-opacity: calc(50%);
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.nav-link a{
+    text-decoration: none;
+    color: white;
+    padding: 6px;
+}
+
+.user-profile {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    cursor: pointer;
+    object-fit: cover;
+}
+
+.nav-link, .user {
+    margin-right: 20px;
+    font-weight: 500;
+}
+
+/* LOGO GOOGLE */
+.hero-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+/* SEARCH BOX*/
+
+.search-bar{
+    margin-top: 30px;
+}
+
+.search-box, .search-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0;
+}
+
+.search-input {
+    width: 670px;
+    height: 30px;
+    border-radius: 40px;
+    border: none;
+    padding: 25px;
+    font-size: 16px;
+    background-color: #4d5156;
+    display: flex;
+    align-items: center ;
+    color: white;
+}
+.search-input:hover {
+    background-color: #5f6368;
+}
+
+.search-input:focus {
+    outline: none;
+    background-color: #333438;
+}
+
+.search-input .text {
+    width: 100%;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    /* margin-left: 10px; */
+}
+
+.search-input .text:focus {
+    /* outline: none; */
+    color: white;
+}
+
+/* SEARCH BUTTONS */
+.search-buttons input {
+    margin: 10px 5px;
+    padding: 10px 20px;
+    border: 1px solid #333438;
+    border-radius: 8px;
+    background-color: #333438;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.search-buttons input:hover {
+    border: 1px solid white;
+}
+
