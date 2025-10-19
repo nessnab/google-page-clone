@@ -14,6 +14,11 @@ body {
     fill: white;
     fill-opacity: calc(50%);
 }
+.mic-icon {
+    margin-left: 10px;
+    cursor: pointer;
+    opacity: 0.5;
+}
 
 /* NAVBAR */
 .navbar {
